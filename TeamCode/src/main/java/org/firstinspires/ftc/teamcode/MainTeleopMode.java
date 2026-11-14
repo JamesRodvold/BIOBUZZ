@@ -13,7 +13,7 @@ public class MainTeleopMode extends OpMode {
     private enum DriveMode {
         RobotRelative, FieldRelative
     }
-    DriveMode driveMode = DriveMode.RobotRelative;
+    DriveMode driveMode = DriveMode.FieldRelative;
     double launchSpeedMultiplier = 1.0;
     double intakeSpeedMultiplier = 1.0;
     LaunchSystem launchSystem;
